@@ -449,13 +449,13 @@ function anim(){
     
     if (player2.position.y === (canvas.height - player2.height)) {
         
-        player2.position.y = 0;
+        player2.position.y = -50;
         player2.position.x = (sr *30) + 80;
        
     }
     if (player3.position.y === (canvas.height - player3.height)) {
         
-        player3.position.y = sr;
+        player3.position.y = -100;
         player3.position.x = (sr2 *30) + 80;
        
     }
